@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>New Task</h1>
+
+        <form>
+            <input type="text" name="addnewtask" placeholder="Add new task..."> 
+        </form>
+
+        <h2>Description</h2>
+        <form>
+            <textarea></textarea>
+        </form>
+
+        <div class="flex-parent">
+            <h2>Due Date</h2>
+            <label for="duedate" class="form-label"></label>
+            <input type="date" class="form-control" id="duedate" name="duedate">
+        
+            <h2>Piority</h2>
+            <label for="inputState" class="form-label"></label>
+            <select id="inputState" class="form-select">
+              <option selected>Normal</option>
+              <option>...</option>
+            </select>
+        </div>
+
+        <button class="button button1">Add</button>
+    </body>
+</html>
